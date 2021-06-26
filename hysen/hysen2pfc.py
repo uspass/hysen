@@ -3,7 +3,7 @@ Hysen Controller for 2 Pipe Fan Coil Interface
 Hysen HY03AC-x-Wifi device and derivative
 """
 
-VERSION = '0.4.4'
+VERSION = '0.4.6'
 
 from .hysendevice import HysenDevice as hysen
 from datetime import datetime
