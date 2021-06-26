@@ -1,6 +1,6 @@
 """Support for Hysen thermostats."""
 
-VERSION = '0.4.4'
+VERSION = '0.4.6'
 
 from broadlink.device import device as broadlink_device
 from broadlink.exceptions import check_error
