@@ -3,8 +3,6 @@ Hysen Heating Thermostat Controller Interface
 Hysen HY03-x-Wifi device and derivative
 """
 
-VERSION = '0.4.6'
-
 from .hysendevice import HysenDevice as hysen
 from datetime import datetime
 
