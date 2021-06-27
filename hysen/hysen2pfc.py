@@ -3,13 +3,11 @@ Hysen Controller for 2 Pipe Fan Coil Interface
 Hysen HY03AC-x-Wifi device and derivative
 """
 
-VERSION = '0.4.6'
-
 from .hysendevice import HysenDevice as hysen
 from datetime import datetime
 
-HYSEN2PFC_KEY_LOCK_OFF       = 0
-HYSEN2PFC_KEY_LOCK_ON        = 1
+HYSEN2PFC_KEY_LOCK_OFF          = 0
+HYSEN2PFC_KEY_LOCK_ON           = 1
 
 HYSEN2PFC_KEY_ALL_UNLOCKED      = 0
 HYSEN2PFC_KEY_POWER_UNLOCKED    = 1
@@ -60,8 +58,8 @@ HYSEN2PFC_HEATING_MIN_TEMP      = 10
 HYSEN2PFC_WEEKDAY_MONDAY        = 1
 HYSEN2PFC_WEEKDAY_SUNDAY        = 7
 
-HYSEN2PFC_DEFAULT_TARGET_TEMP  = 22
-HYSEN2PFC_DEFAULT_CALIBRATION  = 0.0
+HYSEN2PFC_DEFAULT_TARGET_TEMP   = 22
+HYSEN2PFC_DEFAULT_CALIBRATION   = 0.0
 
 HYSEN2PFC_DEV_TYPE              = 0x4F5B
 
