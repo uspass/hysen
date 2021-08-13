@@ -109,6 +109,7 @@ class Hysen2PipeFanCoilDevice(hysen):
         self.period2_end_hour = 17
         self.period2_end_min = 30
         self.time_valve_on = 0
+        self.fwversion = 0
         self._authenticated = False
         self._is_sync_clock_done = False
 
