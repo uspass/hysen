@@ -117,6 +117,7 @@ class HysenHeatingDevice(hysen):
         self.we_period2_temp = 0
         self.unknown2 = 0
         self.unknown3 = 0
+        self.fwversion = 0
         self._authenticated = False
         self._is_sync_clock_done = False
 
