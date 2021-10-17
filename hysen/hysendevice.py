@@ -1,6 +1,6 @@
 """Support for Hysen thermostats."""
 
-from broadlink.device import device as broadlink_device
+from broadlink.device import Device as broadlink_device
 from broadlink.exceptions import check_error
 from broadlink.helpers import calculate_crc16
 
