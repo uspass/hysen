@@ -9,7 +9,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='hysen',
-    version='0.4.10',
+    version='0.4.11',
     author='us',
     description='Python API for controlling Hysen thermostats',
     long_description=long_description,
@@ -17,7 +17,7 @@ setup(
     url='http://github.com/uspass/hysen',
     packages=find_packages(),
     scripts=[],
-    install_requires=['broadlink==0.17.0'],
+    install_requires=['broadlink==0.18.0'],
 
     classifiers=[
         'Programming Language :: Python :: 3',
