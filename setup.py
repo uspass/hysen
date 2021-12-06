@@ -9,7 +9,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='hysen',
-    version='0.4.11',
+    version='0.4.12',
     author='us',
     description='Python API for controlling Hysen thermostats',
     long_description=long_description,
